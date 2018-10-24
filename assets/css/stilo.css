@@ -1,0 +1,104 @@
+
+
+
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul h1{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    background-color: black;
+    height: 64px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15000;
+}
+
+.menu li{
+    /* padding-left: 12px; */
+    display: inline;
+    padding-left: 80px;
+}
+
+.menu img{
+    width: 24%;
+}
+
+#subcategoria {
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#subcategoria {
+    background-color: #DCDCDC;
+    padding: 0px;
+    /* box-shadow: 0 0 8px rgba(0,0,0,.3); */
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.3);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 64px;
+    left: 0;
+}
+
+/* @media (min-width: 992px)
+html, body, div, p, span, li, a, b, strong, i, em, blockquote {
+    font-size: 16px;
+    line-height: 21px;
+} */
+
+div {
+    display: block;
+}
+
+/* html, body, div, p, span, li, a, b, strong, i, em, blockquote {
+    font-size: 17px;
+    line-height: 23px; */
+
+ul.dropdown {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabeçalho {
+    margin-top: 131px
+}
+
+.ACAS {
+    margin: 0;
+    padding: .3rem;
+    background-color: #FFA500;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.ACAS > h1,
+.curso {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.curso {
+    background: right/contain content-box border-box no-repeat
+        url() white;
+}
+
+.curso > h2,
+.curso > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
